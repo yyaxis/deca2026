@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111;
+    color: #fff;
+    font-family: Inter, system-ui, sans-serif;
+}
+
+.photo-card:hover{
+    color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+
+}
+
+.rounded-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 32px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #4f5bff, #12d8f7);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 18px 40px rgba(18, 216, 247, 0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rounded-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 22px 46px rgba(18, 216, 247, 0.24);
+}
+
+.portfolio-body {
+    margin: 0;
+    width: 90%;
+    min-height: 100vh;
+    background: aliceblue;
+    color: #111;
+    font-family: Inter, system-ui, sans-serif;
+}
+
+.portfolio-header {
+    text-align: center;
+    padding: 40px 20px;
+    background: lightskyblue;
+    color: #06234d;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.portfolio-header h1 {
+    margin: 0;
+    font-size: clamp(2rem, 3vw, 3rem);
+    letter-spacing: -0.03em;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    max-width: 960px;
+    width: 50%;
+    margin: 0 auto 48px;
+    background: gainsboro;
+    border-radius: 32px;
+}
+
+.photo-card {
+    width: 100%;
+    background: #fff;
+    border: 2px solid rgba(135, 206, 250, 0.45);
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0f2d4c;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+}
+
+.photo-card--2 {
+    min-height: 520px;
+}
+
+.photo-card img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.photo-card--2 img {
+    max-height: 480px;
+}
