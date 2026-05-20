@@ -29,7 +29,7 @@ body {
     justify-content: center;
     padding: 18px 32px;
     border-radius: 999px;
-    background: #12d8f7;
+    background: dodgerblue;
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
@@ -46,6 +46,7 @@ body {
 .portfolio-body {
     margin: 0;
     width: 90%;
+    display: block;
     min-height: 100vh;
     background: aliceblue;
     color: #111;
@@ -53,16 +54,19 @@ body {
 }
 
 .portfolio-header {
-    location: top;
+    justify-content: top;
+    vertical-align: top;
     text-align: center;
+    width: 100%;
     padding: 40px 20px;
-    background: lightskyblue;
+    background: dodgerblue;
     color: #06234d;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
 }
 
 .portfolio-header h1 {
     margin: 0;
+    text-align: center;
     font-size: clamp(2rem, 3vw, 3rem);
     letter-spacing: -0.03em;
 }
@@ -79,9 +83,10 @@ body {
     border-radius: 32px;
 }
 
-.photo-card {
+.fotoka1, .fotoka2, .fotoka3, .fotoka4,.fotoka5, .fotoka6 {
+    height:auto;
     width: 100%;
-    max-height: 20%;
+    /* max-height: 50%; */
     background: #fff;
     border: 2px solid rgba(135, 206, 250, 0.45);
     border-radius: 28px;
@@ -94,19 +99,33 @@ body {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
 }
 
-.photo-card--2 {
-    min-height: 520px;
-}
-
-.photo-card img {
-    max-width: 300px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
-    object-fit: contain;
+.fotoka1 img {
+    /* max-width: 200px;
+    max-height: 300px; */
+    width: 500px;
+    height: 500px;
+    /* object-fit: contain; */
     display: block;
+    padding: 0px;
 }
 
-.photo-card--2 img {
-    max-height: 480px;
+.fotoka2 img {
+    /* max-height: 480px; */
+    height: 1250px;
+}
+
+.fotoka3 img{
+    height: 350px;
+}
+
+.fotoka4 img{
+    height: 620px;
+}
+
+.fotoka5 img{
+    height:620px;
+}
+
+.fotoka6 img{
+    height:575px;
 }
