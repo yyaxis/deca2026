@@ -53,6 +53,7 @@ body {
 }
 
 .portfolio-header {
+    location: top;
     text-align: center;
     padding: 40px 20px;
     background: lightskyblue;
