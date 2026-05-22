@@ -33,7 +33,7 @@ opacity: 0.95;
     margin-left: 20%;
     display: block;
     padding: 15px 15px;
-    font-size: 1rem;
+    font-size: 0.5rem;
     text-decoration: none;
     color: #fff;
     justify-content: center;
@@ -156,7 +156,7 @@ opacity: 0.95;
     height:575px;
 }
 .fotoka7 img{
-    height:600px;
+    height:300px;
 
 .tail {
     display: block;
