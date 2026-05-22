@@ -9,6 +9,9 @@ body {
     color: #fff;
     font-family: Inter, system-ui, sans-serif;
 }
+.body1{
+    display: block;
+}
 
 .photo-card:hover{
     color: #424242; 
